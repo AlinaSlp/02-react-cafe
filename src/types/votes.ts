@@ -1,5 +1,7 @@
+export interface Votes {
+  good: number;
+  neutral: number;
+  bad: number;
+}
 
-const App = () => {
-    return <h1>Hello App</h1>;
-};
-export default App;
+export type VoteType = 'good' | 'neutral' | 'bad';
